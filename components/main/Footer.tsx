@@ -2,9 +2,6 @@ import React from "react";
 import {
   RxDiscordLogo,
   RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
 } from "react-icons/rx";
 
 import { FaYoutube } from "react-icons/fa";
@@ -58,13 +55,13 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">himanshu007.dev@gmail.com</span>    
                     </p>
                 </div>
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
+                &copy; Himanshu Dev 2025 Inc. All rights reserved
             </div>
         </div>
     </div>

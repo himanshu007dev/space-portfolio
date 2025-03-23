@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            Java Fullstack Developer Portfolio
           </h1>
         </motion.div>
 
@@ -46,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
+          I&apos;m a Java Full Stack Software Engineer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
         </motion.p>
         <motion.a
