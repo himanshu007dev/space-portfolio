@@ -1,7 +1,7 @@
 export const Skill_data = [
   {
-    skill_name: "Html 5",
-    Image: "/html.png",
+    skill_name: "Java",
+    Image: "/java-1.png",
     width: 80,
     height: 80,
   },
@@ -105,8 +105,8 @@ export const Frontend_skill = [
     height: 80,
   },
   {
-    skill_name: "Css",
-    Image: "/css.png",
+    skill_name: "Spring Boot",
+    Image: "/spring-boot-1.png",
     width: 80,
     height: 80,
   },
@@ -162,8 +162,8 @@ export const Frontend_skill = [
 
 export const Backend_skill = [
   {
-    skill_name: "Type Script",
-    Image: "/ts.png",
+    skill_name: "Spring Boot",
+    Image: "/spring-boot.png",
     width: 80,
     height: 80,
   },
