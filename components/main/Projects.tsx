@@ -1,5 +1,6 @@
+import dynamic from "next/dynamic";
 import React from "react";
-import ProjectCard from "../sub/ProjectCard";
+const ProjectCard = dynamic(() => import("../sub/ProjectCard"));
 
 const Projects = () => {
   return (

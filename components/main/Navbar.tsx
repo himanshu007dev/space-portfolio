@@ -1,6 +1,6 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
-import React from "react";
+import React, { memo } from "react";
 
 const Navbar = () => {
   return (
@@ -53,4 +53,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default memo(Navbar);

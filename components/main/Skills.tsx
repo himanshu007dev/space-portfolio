@@ -6,8 +6,10 @@ import {
   Skill_data,
 } from "@/constants";
 import React from "react";
-import SkillDataProvider from "../sub/SkillDataProvider";
-import SkillText from "../sub/SkillText";
+
+import dynamic from "next/dynamic";
+const SkillDataProvider = dynamic(() => import("../sub/SkillDataProvider"));
+const SkillText = dynamic(() => import("../sub/SkillText"));
 
 const Skills = () => {
   return (

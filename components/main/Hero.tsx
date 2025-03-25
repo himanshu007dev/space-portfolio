@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import HeroContent from "../sub/HeroContent";
 
 const Hero = () => {
@@ -17,4 +17,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default memo(Hero);
